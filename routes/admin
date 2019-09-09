@@ -1,0 +1,9 @@
+const express = require('express');
+const route = express.Router();
+const path = require('path');
+
+const enactus = require('./enactus');
+route.use('/enectus')
+
+
+module.exports = route;
